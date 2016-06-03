@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "agriculturalexpansion:blocks/sheep_crop6"
+    }
+}

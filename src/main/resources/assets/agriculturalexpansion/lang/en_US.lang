@@ -1,0 +1,116 @@
+//Items
+item.resource_sprout.name=Resource Sprout
+
+item.coal_essence.name=Coal Essence
+item.iron_essence.name=Iron Essence
+item.gold_essence.name=Gold Essence
+item.lapis_essence.name=Lapis Essence
+item.quartz_essence.name=Quartz Essence
+item.redstone_essence.name=Redstone Essence
+item.diamond_essence.name=Diamond Essence
+item.emerald_essence.name=Emerald Essence
+item.glowstone_essence.name=Glowstone Essence
+
+item.zombie_essence.name=Zombie Essence
+item.creeper_essence.name=Creeper Essence
+item.skeleton_essence.name=Skeleton Essence
+item.slime_essence.name=Slime Essence
+item.spider_essence.name=Spider Essence
+item.guardian_essence.name=Guardian Essence
+item.ghast_essence.name=Ghast Essence
+item.wither_essence.name=Wither Essence
+item.blaze_essence.name=Blaze Essence
+item.enderman_essence.name=Enderman Essence
+item.squid_essence.name=Squid Essence
+
+item.zombie_chunk.name=Zombie Chunk
+item.creeper_chunk.name=Creeper Chunk
+item.skeleton_chunk.name=Skeleton Chunk
+item.slime_chunk.name=Slime Chunk
+item.spider_chunk.name=Spider Chunk
+item.guardian_chunk.name=Guardian Chunk
+item.ghast_chunk.name=Ghast Chunk
+item.wither_chunk.name=Wither Chunk
+item.blaze_chunk.name=Blaze Chunk
+item.enderman_chunk.name=Enderman Chunk
+item.squid_chunk.name=Squid Chunk
+
+item.cow_essence.name=Cow Essence
+item.sheep_essence.name=Sheep Essence
+item.chicken_essence.name=Chicken Essence
+item.pig_essence.name=Pig Essence
+item.rabbit_essence.name=Rabbit Essence
+
+item.cow_chunk.name=Cow Chunk
+item.sheep_chunk.name=Sheep Chunk
+item.chicken_chunk.name=Chicken Chunk
+item.pig_chunk.name=Pig Chunk
+item.rabbit_chunk.name=Rabbit Chunk
+
+//Seeds
+item.resource_seed.name=Resource Seed
+
+item.coal_sprout.name=Coal Sprout
+item.iron_sprout.name=Iron Sprout
+item.gold_sprout.name=Gold Sprout
+item.lapis_sprout.name=Lapis Sprout
+item.quartz_sprout.name=Quartz Sprout
+item.redstone_sprout.name=Redstone Sprout
+item.diamond_sprout.name=Diamond Sprout
+item.emerald_sprout.name=Emerald Sprout
+item.glowstone_sprout.name=Glowstone Sprout
+
+item.zombie_sprout.name=Zombie Sprout
+item.creeper_sprout.name=Creeper Sprout
+item.skeleton_sprout.name=Skeleton Sprout
+item.slime_sprout.name=Slime Sprout
+item.spider_sprout.name=Spider Sprout
+item.guardian_sprout.name=Guardian Sprout
+item.ghast_sprout.name=Ghast Sprout
+item.wither_sprout.name=Wither Sprout
+item.blaze_sprout.name=Blaze Sprout
+item.enderman_sprout.name=Enderman Sprout
+item.squid_sprout.name=Squid Sprout
+
+item.cow_sprout.name=Cow Sprout
+item.sheep_sprout.name=Sheep Sprout
+item.chicken_sprout.name=Chicken Sprout
+item.pig_sprout.name=Pig Sprout
+item.rabbit_sprout.name=Rabbit Sprout
+
+//Blocks
+tile.sprout_block.name=Sprout Block
+
+//Crops
+tile.resource_crop.name=Resource Crop
+
+tile.coal_crop.name=Coal Crop
+tile.iron_crop.name=Iron Crop
+tile.gold_crop.name=Gold Crop
+tile.lapis_crop.name=Lapis Crop
+tile.quartz_crop.name=Quartz Crop
+tile.redstone_crop.name=Redstone Crop
+tile.diamond_crop.name=Diamond Crop
+tile.emerald_crop.name=Emerald Crop
+tile.glowstone_crop.name=Glowstone Crop
+
+tile.zombie_crop.name=Zombie Crop
+tile.creeper_crop.name=Creeper Crop
+tile.skeleton_crop.name=Skeleton Crop
+tile.slime_crop.name=Slime Crop
+tile.spider_crop.name=Spider Crop
+tile.guardian_crop.name=Guardian Crop
+tile.ghast_crop.name=Ghast Crop
+tile.wither_crop.name=Wither Crop
+tile.blaze_crop.name=Blaze Crop
+tile.enderman_crop.name=Enderman Crop
+tile.squid_crop.name=Squid Crop
+
+tile.cow_crop.name=Cow Crop
+tile.sheep_crop.name=Sheep Crop
+tile.chicken_crop.name=Chicken Crop
+tile.pig_crop.name=Pig Crop
+tile.rabbit_crop.name=Rabbit Crop
+
+//CreativeTabs
+itemGroup.tabAgriculturalExpansion=Agricultural Expansion
