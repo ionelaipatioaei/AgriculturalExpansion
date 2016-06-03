@@ -7,7 +7,6 @@ import net.minecraft.item.Item;
 public class AECrops {
 	
 	//Resource Crop
-	
 	public static class ResourceCrop extends AECrop {
 
 		public ResourceCrop(String name) {
@@ -26,7 +25,6 @@ public class AECrops {
 	}
 	
 	//Vanilla Resources
-	
 	public static class CoalCrop extends AECrop {
 		
 		public CoalCrop(String name) {
@@ -181,7 +179,6 @@ public class AECrops {
 	}
 	
 	//Hostile Mobs
-	
 	public static class ZombieCrop extends AECrop {
 
 		public ZombieCrop(String name) {
@@ -352,6 +349,7 @@ public class AECrops {
 
 	}
 	
+	//Pasive Mobs
 	public static class SquidCrop extends AECrop {
 
 		public SquidCrop(String name) {
@@ -369,7 +367,6 @@ public class AECrops {
 
 	}
 	
-	//Pasive Mobs
 	public static class CowCrop extends AECrop {
 
 		public CowCrop(String name) {
@@ -454,8 +451,5 @@ public class AECrops {
 		}
 
 	}
-	
-	//OreDictionary Resources
-
 	
 }

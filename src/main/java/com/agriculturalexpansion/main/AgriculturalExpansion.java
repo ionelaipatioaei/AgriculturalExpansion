@@ -7,10 +7,6 @@ import com.agriculturalexpansion.handler.CreativeTab;
 import com.agriculturalexpansion.handler.DungeonLoot;
 import com.agriculturalexpansion.handler.MobDrops;
 import com.agriculturalexpansion.handler.Recipes;
-import com.agriculturalexpansion.init.AEBlocks;
-import com.agriculturalexpansion.init.AEBlocksReg;
-import com.agriculturalexpansion.init.AEItems;
-import com.agriculturalexpansion.init.AEItemsReg;
 import com.agriculturalexpansion.proxy.CommonProxy;
 
 import net.minecraftforge.common.MinecraftForge;

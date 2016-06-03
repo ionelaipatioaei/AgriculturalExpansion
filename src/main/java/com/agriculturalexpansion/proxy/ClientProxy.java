@@ -1,9 +1,7 @@
 package com.agriculturalexpansion.proxy;
 
 import com.agriculturalexpansion.init.AEBlocks;
-import com.agriculturalexpansion.init.AEBlocksReg;
 import com.agriculturalexpansion.init.AEItems;
-import com.agriculturalexpansion.init.AEItemsReg;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -21,8 +19,8 @@ public class ClientProxy extends CommonProxy {
 	public void init(FMLInitializationEvent event) {
 		super.init(event);
 		
-		AEBlocksReg.registerRenders();
-		AEItemsReg.registerRenders();
+		AEBlocks.initModels();
+		AEItems.initModels();
 		
 	}
 

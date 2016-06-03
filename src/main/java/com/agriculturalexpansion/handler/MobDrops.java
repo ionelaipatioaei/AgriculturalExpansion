@@ -33,6 +33,7 @@ public class MobDrops {
 	
     @SubscribeEvent
     public void onMobDrops(LivingDropsEvent event) {
+    	//Hostile Mobs
         if (event.getEntity() instanceof EntityZombie) {
  
             ItemStack stack = new ItemStack(AEItems.zombie_chunk, r.nextInt(2));
@@ -115,6 +116,7 @@ public class MobDrops {
             event.getDrops().add(drop);
         }
         
+        //Passive Mobs
         if(event.getEntity() instanceof EntitySquid) {
         	
         	ItemStack stack = new ItemStack(AEItems.squid_chunk, r.nextInt(2));
@@ -123,7 +125,6 @@ public class MobDrops {
             event.getDrops().add(drop);
         }
         
-        //Passive Mobs
         if(event.getEntity() instanceof EntityCow) {
         	
         	ItemStack stack = new ItemStack(AEItems.cow_chunk, r.nextInt(2));

@@ -44,8 +44,8 @@ public class ConfigurationFile {
 	public static int witherSprouts;
 	public static int blazeSprouts;
 	public static int endermanSprouts;
-	public static int squidSprouts;
 	
+	public static int squidSprouts;
 	public static int cowSprouts;
 	public static int sheepSprouts;
 	public static int chickenSprouts;
@@ -99,8 +99,8 @@ public class ConfigurationFile {
 		witherSprouts = config.getInt("witherSprouts", category, 5, 0, 100, "Wither Sprouts generation");
 		blazeSprouts = config.getInt("blazeSprouts", category, 7, 0, 100, "Blaze Sprouts generation");
 		endermanSprouts = config.getInt("endermanSprouts", category, 9, 0, 100, "Enderman Sprouts generation");
-		squidSprouts = config.getInt("squidSprouts", category, 11, 0, 100, "Squid Sprouts generation");
 		
+		squidSprouts = config.getInt("squidSprouts", category, 11, 0, 100, "Squid Sprouts generation");
 		cowSprouts = config.getInt("cowSprouts", category, 9, 0, 100, "Cow Sprouts generation");
 		sheepSprouts = config.getInt("sheepSprouts", category, 9, 0, 100, "Sheep Sprouts generation");
 		chickenSprouts = config.getInt("chickenSprouts", category, 8, 0, 100, "Chicken Sprouts generation");

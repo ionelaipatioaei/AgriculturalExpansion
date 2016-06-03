@@ -35,7 +35,7 @@ public class DungeonLoot {
             main.addEntry(new LootEntryItem(AEItems.emerald_sprout, ConfigurationFile.emeraldSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":emeraldSprouts"));
             main.addEntry(new LootEntryItem(AEItems.glowstone_sprout, ConfigurationFile.glowstoneSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":glowstoneSprouts"));
             
-            //Hostile Mob Sprouts
+            //Hostile Mobs Sprouts
             main.addEntry(new LootEntryItem(AEItems.zombie_sprout, ConfigurationFile.zombieSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":zombieSprouts"));
             main.addEntry(new LootEntryItem(AEItems.creeper_sprout, ConfigurationFile.creeperSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":creeperSprouts"));
             main.addEntry(new LootEntryItem(AEItems.skeleton_sprout, ConfigurationFile.skeletonSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":skeletonSprouts"));
@@ -46,9 +46,9 @@ public class DungeonLoot {
             main.addEntry(new LootEntryItem(AEItems.wither_sprout, ConfigurationFile.witherSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":witherSprouts"));
             main.addEntry(new LootEntryItem(AEItems.blaze_sprout, ConfigurationFile.blazeSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":blazeSprouts"));
             main.addEntry(new LootEntryItem(AEItems.enderman_sprout, ConfigurationFile.endermanSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":endermanSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.squid_sprout, ConfigurationFile.squidSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":squidSprouts"));
             
-            //Passive Mobs
+            //Passive Mobs Sprouts
+            main.addEntry(new LootEntryItem(AEItems.squid_sprout, ConfigurationFile.squidSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":squidSprouts"));
             main.addEntry(new LootEntryItem(AEItems.cow_sprout, ConfigurationFile.cowSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":cowSprouts"));
             main.addEntry(new LootEntryItem(AEItems.sheep_sprout, ConfigurationFile.sheepSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":sheepSprouts"));
             main.addEntry(new LootEntryItem(AEItems.chicken_sprout, ConfigurationFile.chickenSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":chickenSprouts"));

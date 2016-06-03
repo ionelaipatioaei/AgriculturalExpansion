@@ -18,8 +18,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class AECrop extends BlockCrops {
-	
-	 public static final PropertyInteger AGE = PropertyInteger.create("age", 0, 7);
 
     public AECrop(String name) {
     	super();
@@ -58,46 +56,6 @@ public class AECrop extends BlockCrops {
             }
         }
         return ret;
-    }
-    
-    @Override
-    public PropertyInteger getAgeProperty() {
-        return AGE;
-    }
-
-    @Override
-    public int getMaxAge() {
-        return 7;
-    }
-
-    @Override
-    public int getAge(IBlockState state) {
-        return ((Integer)state.getValue(this.getAgeProperty())).intValue();
-    }
-
-    @Override
-    public IBlockState withAge(int age) {
-        return this.getDefaultState().withProperty(this.getAgeProperty(), Integer.valueOf(age));
-    }
-
-    @Override
-    public boolean isMaxAge(IBlockState state) {
-        return ((Integer)state.getValue(this.getAgeProperty())).intValue() >= this.getMaxAge();
-    }
-    
-    @Override
-    public IBlockState getStateFromMeta(int meta) {
-        return this.withAge(meta);
-    }
-    
-    @Override
-    public int getMetaFromState(IBlockState state) {
-        return this.getAge(state);
-    }
-
-    @Override
-    public BlockStateContainer createBlockState() {
-        return new BlockStateContainer(this, new IProperty[] {AGE});
     }
 
 }

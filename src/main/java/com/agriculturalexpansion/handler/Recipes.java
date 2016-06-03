@@ -34,49 +34,6 @@ public class Recipes {
 		});
 		}
 		
-		//Easy Recipes
-		/*
-		GameRegistry.addShapedRecipe(new ItemStack(Items.COAL, 4), new Object[] {
-				"X X", " X ", "X X",
-				'X', AEItems.coal_essence
-		});
-		
-		GameRegistry.addShapedRecipe(new ItemStack(Items.IRON_INGOT, 3), new Object[] {
-				"X X", " X ", "X X",
-				'X', AEItems.iron_essence
-		});
-		
-		GameRegistry.addShapedRecipe(new ItemStack(Items.GOLD_INGOT, 3), new Object[] {
-				"X X", " X ", "X X",
-				'X', AEItems.gold_essence
-		});
-		
-		GameRegistry.addShapedRecipe(new ItemStack(Items.DYE, 10, 4), new Object[] {
-				"X X", " X ", "X X",
-				'X', AEItems.lapis_essence
-		});
-		
-		GameRegistry.addShapedRecipe(new ItemStack(Items.QUARTZ, 8), new Object[] {
-				"X X", " X ", "X X",
-				'X', AEItems.quartz_essence
-		});
-		
-		GameRegistry.addShapedRecipe(new ItemStack(Items.REDSTONE, 10), new Object[] {
-				"X X", " X ", "X X",
-				'X', AEItems.redstone_essence
-		});
-		
-		GameRegistry.addShapedRecipe(new ItemStack(Items.DIAMOND, 2), new Object[] {
-				"X X", " X ", "X X",
-				'X', AEItems.diamond_essence
-		});
-		
-		GameRegistry.addShapedRecipe(new ItemStack(Items.EMERALD, 2), new Object[] {
-				"X X", " X ", "X X",
-				'X', AEItems.emerald_essence
-		});
-		*/
-		
 		//Default Recipes
 		//Vanilla Resources
 		GameRegistry.addShapedRecipe(new ItemStack(Items.COAL, 2), new Object[] {
@@ -224,17 +181,17 @@ public class Recipes {
 				"X X", " X ", "X X", 
 				'X', AEItems.enderman_essence
 		});
+		
+		//Passive Mobs
 		GameRegistry.addShapedRecipe(new ItemStack(Items.DYE, 3, 0), new Object[]{
 				"X X", " X ", "X X", 
 				'X', AEItems.squid_essence
 		});
-		
-		//Passive Mobs
-		GameRegistry.addShapedRecipe(new ItemStack(Items.LEATHER, 1), new Object[]{
+		GameRegistry.addShapedRecipe(new ItemStack(Items.LEATHER, 2), new Object[]{
 				" X ", "X X", " X ", 
 				'X', AEItems.cow_essence
 		});
-		GameRegistry.addShapedRecipe(new ItemStack(Blocks.WOOL, 1), new Object[]{
+		GameRegistry.addShapedRecipe(new ItemStack(Blocks.WOOL, 2), new Object[]{
 				" X ", "X X", " X ", 
 				'X', AEItems.sheep_essence
 		});
@@ -254,49 +211,6 @@ public class Recipes {
 				"XXX", "XXX", "XXX", 
 				'X', AEItems.rabbit_essence
 		});
-		
-		//Hard Recipes
-		/*
-		GameRegistry.addShapedRecipe(new ItemStack(Items.COAL, 2), new Object[]{
-				"XXX", "X X", "XXX",
-				'X', AEItems.coal_essence
-		});
-		
-		GameRegistry.addShapedRecipe(new ItemStack(Items.IRON_INGOT, 2), new Object[]{
-				"XXX", "X X", "XXX",
-				'X', AEItems.iron_essence
-		});
-		
-		GameRegistry.addShapedRecipe(new ItemStack(Items.GOLD_INGOT, 2), new Object[]{
-				"XXX", "X X", "XXX",
-				'X', AEItems.gold_essence
-		});
-		
-		GameRegistry.addShapedRecipe(new ItemStack(Items.DYE, 8, 4), new Object[]{
-				"XXX", "X X", "XXX",
-				'X', AEItems.lapis_essence
-		});
-		
-		GameRegistry.addShapedRecipe(new ItemStack(Items.QUARTZ, 4), new Object[]{
-				"XXX", "X X", "XXX",
-				'X', AEItems.quartz_essence
-		});
-		
-		GameRegistry.addShapedRecipe(new ItemStack(Items.REDSTONE, 5), new Object[]{
-				"XXX", "X X", "XXX",
-				'X', AEItems.redstone_essence
-		});
-		
-		GameRegistry.addShapedRecipe(new ItemStack(Items.DIAMOND, 1), new Object[]{
-				"XXX", "X X", "XXX",
-				'X', AEItems.diamond_essence
-		});
-		
-		GameRegistry.addShapedRecipe(new ItemStack(Items.EMERALD, 1), new Object[]{
-				"XXX", "X X", "XXX",
-				'X', AEItems.emerald_essence
-		});
-		*/
 		
 		//Seed Crafting
 		//Vanilla Resources
@@ -383,12 +297,12 @@ public class Recipes {
 				" X ", "XYX", " X ",
 				'X', AEItems.resource_sprout, 'Y', AEItems.enderman_chunk
 		});
+		
+		//Passive Mobs
 		GameRegistry.addShapedRecipe(new ItemStack(AEItems.squid_sprout), new Object[] {
 				" X ", "XYX", " X ",
 				'X', AEItems.resource_sprout, 'Y', AEItems.squid_chunk
 		});
-		
-		//Passive Mobs
 		GameRegistry.addShapedRecipe(new ItemStack(AEItems.cow_sprout), new Object[] {
 				" X ", "XYX", " X ",
 				'X', AEItems.resource_sprout, 'Y', AEItems.cow_chunk
