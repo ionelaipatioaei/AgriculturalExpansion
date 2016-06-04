@@ -5,6 +5,7 @@ import com.agriculturalexpansion.init.AEBlocks;
 import com.agriculturalexpansion.init.AEItems;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLInterModComms;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
@@ -17,6 +18,7 @@ public class CommonProxy {
 		
 		Recipes.init();
 
+		FMLInterModComms.sendMessage("Waila", "register", "com.agriculturalexpansion.compat.WailaDataProvider.callbackRegister");
 	}
 	
 	public void init(FMLInitializationEvent event) {
