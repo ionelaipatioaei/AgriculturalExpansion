@@ -1,0 +1,16 @@
+[
+{
+  "modid": "agriculturalexpansion",
+  "name": "Agricultural Expansion",
+  "description": "A simple mod which allows you to obtain resources using crops.",
+  "version": "beta 1.1.16",
+  "mcversion": "1.9.4|1.10",
+  "url": "http://minecraft.curseforge.com/projects/agricultural-expansion",
+  "updateUrl": "http://minecraft.curseforge.com/projects/agricultural-expansion",
+  "authorList": ["Lionel775"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

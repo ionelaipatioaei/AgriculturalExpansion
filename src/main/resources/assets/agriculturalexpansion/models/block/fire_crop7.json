@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "agriculturalexpansion:blocks/fire_crop7"
+    }
+}

@@ -1,0 +1,322 @@
+//Items
+item.resource_sprout.name=Resource Sprout
+item.powerful_sprout.name=Powerful Sprout
+item.extreme_sprout.name=Extreme Sprout
+item.ultimate_sprout.name=Ultimate Sprout
+
+item.earth_sprout_former.name=Earth Sprout Former
+item.water_sprout_former.name=Water Sprout Former
+item.fire_sprout_former.name=Fire Sprout Former
+item.experience_sprout_former.name=Experience Sprout Former
+item.dye_sprout_former.name=Dye Sprout Former
+item.nature_sprout_former.name=Nature Sprout Former
+item.nether_sprout_former.name=Nether Sprout Former
+
+//Vanilla Essence
+item.coal_essence.name=Coal Essence
+item.iron_essence.name=Iron Essence
+item.gold_essence.name=Gold Essence
+item.lapis_essence.name=Lapis Essence
+item.quartz_essence.name=Quartz Essence
+item.redstone_essence.name=Redstone Essence
+item.diamond_essence.name=Diamond Essence
+item.emerald_essence.name=Emerald Essence
+item.glowstone_essence.name=Glowstone Essence
+
+//Hostile Mobs Essence
+item.zombie_essence.name=Zombie Essence
+item.creeper_essence.name=Creeper Essence
+item.skeleton_essence.name=Skeleton Essence
+item.slime_essence.name=Slime Essence
+item.spider_essence.name=Spider Essence
+item.guardian_essence.name=Guardian Essence
+item.ghast_essence.name=Ghast Essence
+item.wither_essence.name=Wither Essence
+item.blaze_essence.name=Blaze Essence
+item.enderman_essence.name=Enderman Essence
+
+//Passive Mobs Essence
+item.squid_essence.name=Squid Essence
+item.cow_essence.name=Cow Essence
+item.sheep_essence.name=Sheep Essence
+item.chicken_essence.name=Chicken Essence
+item.pig_essence.name=Pig Essence
+item.rabbit_essence.name=Rabbit Essence
+
+//Special Essence
+item.earth_essence.name=Earth Essence
+item.water_essence.name=Water Essence
+item.fire_essence.name=Fire Essence
+item.experience_essence.name=Experience Essence
+item.dye_essence.name=Dye Essence
+item.nature_essence.name=Nature Essence
+item.nether_essence.name=Nether Essence
+
+//OreDictionary Essence
+//Common Essence
+item.copper_essence.name=Copper Essence
+item.tin_essence.name=Tin Essence
+item.silver_essence.name=Silver Essence
+item.lead_essence.name=Lead Essence
+item.nickel_essence.name=Nickel Essence
+item.platinum_essence.name=Platinum Essence
+item.aluminum_essence.name=Aluminum Essence
+item.iridium_essence.name=Iridium Essence
+item.titanium_essence.name=Titanium Essence
+item.tungsten_essence.name=Tungsten Essence
+item.zinc_essence.name=Zinc Essence
+
+//TiCon Essence
+item.ardite_essence.name=Ardite Essence
+item.cobalt_essence.name=Cobalt Essence
+item.alubrass_essence.name=Alubrass Essence
+item.manyullyn_essence.name=Manyullyn Essence
+
+//Alloy Essence
+item.bronze_essence.name=Bronze Essence
+item.steel_essence.name=Steel Essence
+item.invar_essence.name=Invar Essence
+item.electrum_essence.name=Electrum Essence
+item.brass_essence.name=Brass Essence
+
+//Gem Essence
+item.ruby_essence.name=Ruby Essence
+item.sapphire_essence.name=Sapphire Essence
+item.amber_essence.name=Amber Essence
+item.malachite_essence.name=Malachite Essence
+item.peridot_essence.name=Peridot Essence
+item.tanzanite_essence.name=Tanzanite Essence
+item.topaz_essence.name=Topaz Essence
+
+//Other Essence
+item.apatite_essence.name=Apatite Essence
+item.rubber_essence.name=Rubber Essence
+
+//Hostile Mobs Chunks
+item.zombie_chunk.name=Zombie Chunk
+item.creeper_chunk.name=Creeper Chunk
+item.skeleton_chunk.name=Skeleton Chunk
+item.slime_chunk.name=Slime Chunk
+item.spider_chunk.name=Spider Chunk
+item.guardian_chunk.name=Guardian Chunk
+item.ghast_chunk.name=Ghast Chunk
+item.wither_chunk.name=Wither Chunk
+item.blaze_chunk.name=Blaze Chunk
+item.enderman_chunk.name=Enderman Chunk
+
+//Passive Mobs Chunks
+item.squid_chunk.name=Squid Chunk
+item.cow_chunk.name=Cow Chunk
+item.sheep_chunk.name=Sheep Chunk
+item.chicken_chunk.name=Chicken Chunk
+item.pig_chunk.name=Pig Chunk
+item.rabbit_chunk.name=Rabbit Chunk
+
+//food
+item.cooked_mob_chunk.name=Cooked Mob Chunk
+
+//Seeds
+item.resource_seed.name=Resource Seed
+
+//Vanilla Sprouts
+item.coal_sprout.name=Coal Sprout
+item.iron_sprout.name=Iron Sprout
+item.gold_sprout.name=Gold Sprout
+item.lapis_sprout.name=Lapis Sprout
+item.quartz_sprout.name=Quartz Sprout
+item.redstone_sprout.name=Redstone Sprout
+item.diamond_sprout.name=Diamond Sprout
+item.emerald_sprout.name=Emerald Sprout
+item.glowstone_sprout.name=Glowstone Sprout
+
+//Hostile Mobs Sprouts
+item.zombie_sprout.name=Zombie Sprout
+item.creeper_sprout.name=Creeper Sprout
+item.skeleton_sprout.name=Skeleton Sprout
+item.slime_sprout.name=Slime Sprout
+item.spider_sprout.name=Spider Sprout
+item.guardian_sprout.name=Guardian Sprout
+item.ghast_sprout.name=Ghast Sprout
+item.wither_sprout.name=Wither Sprout
+item.blaze_sprout.name=Blaze Sprout
+item.enderman_sprout.name=Enderman Sprout
+
+//Passive Mobs Sprouts
+item.squid_sprout.name=Squid Sprout
+item.cow_sprout.name=Cow Sprout
+item.sheep_sprout.name=Sheep Sprout
+item.chicken_sprout.name=Chicken Sprout
+item.pig_sprout.name=Pig Sprout
+item.rabbit_sprout.name=Rabbit Sprout
+
+//Special Sprouts
+item.earth_sprout.name=Earth Sprout
+item.water_sprout.name=Water Sprout
+item.fire_sprout.name=Fire Sprout
+item.experience_sprout.name=Experience Sprout
+item.dye_sprout.name=Dye Sprout
+item.nature_sprout.name=Nature Sprout
+item.nether_sprout.name=Nether Sprout
+
+//OreDictionary Sprouts
+//Common Sprouts
+item.copper_sprout.name=Copper Sprout
+item.tin_sprout.name=Tin Sprout
+item.silver_sprout.name=Silver Sprout
+item.lead_sprout.name=Lead Sprout
+item.nickel_sprout.name=Nickel Sprout
+item.platinum_sprout.name=Platinum Sprout
+item.aluminum_sprout.name=Aluminum Sprout
+item.iridium_sprout.name=Iridium Sprout
+item.titanium_sprout.name=Titanium Sprout
+item.tungsten_sprout.name=Tungsten Sprout
+item.zinc_sprout.name=Zinc Sprout
+
+//TiCon Sprouts
+item.ardite_sprout.name=Ardite Sprout
+item.cobalt_sprout.name=Cobalt Sprout
+item.alubrass_sprout.name=Alubrass Sprout
+item.manyullyn_sprout.name=Manyullyn Sprout
+
+//Alloy Sprouts
+item.bronze_sprout.name=Bronze Sprout
+item.steel_sprout.name=Steel Sprout
+item.invar_sprout.name=Invar Sprout
+item.electrum_sprout.name=Electrum Sprout
+item.brass_sprout.name=Brass Sprout
+
+//Gem Sprouts
+item.ruby_sprout.name=Ruby Sprout
+item.sapphire_sprout.name=Sapphire Sprout
+item.amber_sprout.name=Amber Sprout
+item.malachite_sprout.name=Malachite Sprout
+item.peridot_sprout.name=Peridot Sprout
+item.tanzanite_sprout.name=Tanzanite Sprout
+item.topaz_sprout.name=Topaz Sprout
+
+//Other Sprouts
+item.apatite_sprout.name=Apatite Sprout
+item.rubber_sprout.name=Rubber Sprout
+
+//Blocks
+tile.sprout_block.name=Sprout Block
+
+//Crops
+tile.resource_crop.name=Resource Crop
+
+//Vanilla Crops
+tile.coal_crop.name=Coal Crop
+tile.iron_crop.name=Iron Crop
+tile.gold_crop.name=Gold Crop
+tile.lapis_crop.name=Lapis Crop
+tile.quartz_crop.name=Quartz Crop
+tile.redstone_crop.name=Redstone Crop
+tile.diamond_crop.name=Diamond Crop
+tile.emerald_crop.name=Emerald Crop
+tile.glowstone_crop.name=Glowstone Crop
+
+//Hostile Mobs Crops
+tile.zombie_crop.name=Zombie Crop
+tile.creeper_crop.name=Creeper Crop
+tile.skeleton_crop.name=Skeleton Crop
+tile.slime_crop.name=Slime Crop
+tile.spider_crop.name=Spider Crop
+tile.guardian_crop.name=Guardian Crop
+tile.ghast_crop.name=Ghast Crop
+tile.wither_crop.name=Wither Crop
+tile.blaze_crop.name=Blaze Crop
+tile.enderman_crop.name=Enderman Crop
+
+//Passive Mobs Crops
+tile.squid_crop.name=Squid Crop
+tile.cow_crop.name=Cow Crop
+tile.sheep_crop.name=Sheep Crop
+tile.chicken_crop.name=Chicken Crop
+tile.pig_crop.name=Pig Crop
+tile.rabbit_crop.name=Rabbit Crop
+
+//Special Crops
+tile.earth_crop.name=Earth Crop
+tile.water_crop.name=Water Crop
+tile.fire_crop.name=Fire Crop
+tile.experience_crop.name=Experience Crop
+tile.dye_crop.name=Dye Crop
+tile.nature_crop.name=Nature Crop
+tile.nether_crop.name=Nether Crop
+
+//OreDictionary Crops
+//Common Crops
+tile.copper_crop.name=Copper Crop
+tile.tin_crop.name=Tin Crop
+tile.silver_crop.name=Silver Crop
+tile.lead_crop.name=Lead Crop
+tile.nickel_crop.name=Nickel Crop
+tile.platinum_crop.name=Platinum Crop
+tile.aluminum_crop.name=Aluminum Crop
+tile.iridium_crop.name=Iridium Crop
+tile.titanium_crop.name=Titanium Crop
+tile.tungsten_crop.name=Tungsten Crop
+tile.zinc_crop.name=Zinc Crop
+
+//TiCon Crops
+tile.ardite_crop.name=Ardite Crop
+tile.cobalt_crop.name=Cobalt Crop
+tile.alubrass_crop.name=Alubrass Crop
+tile.manyullyn_crop.name=Manyullyn Crop
+
+//Alloy Crops
+tile.bronze_crop.name=Bronze Crop
+tile.steel_crop.name=Steel Crop
+tile.invar_crop.name=Invar Crop
+tile.electrum_crop.name=Electrum Crop
+tile.brass_crop.name=Brass Crop
+
+//Gem Crops
+tile.ruby_crop.name=Ruby Crop
+tile.sapphire_crop.name=Sapphire Crop
+tile.amber_crop.name=Amber Crop
+tile.malachite_crop.name=Malachite Crop
+tile.peridot_crop.name=Peridot Crop
+tile.tanzanite_crop.name=Tanzanite Crop
+tile.topaz_crop.name=Topaz Crop
+
+//Other Crops
+tile.apatite_crop.name=Apatite Crop
+tile.rubber_crop.name=Rubber Crop
+
+//CreativeTabs
+itemGroup.tabAgriculturalExpansion=Agricultural Expansion
+
+//Achievements
+achievement.sproutFarmer=Sprout Farmer
+achievement.sproutFarmer.desc=Make some Resource Seeds and plant them to obtain sprouts for resource crops!
+
+achievement.collectSprout=My First Sprout
+achievement.collectSprout.desc=For a resource seed you need 4 resource sprouts, go ahead and get them!
+
+achievement.collectChunk=My First Mob Chunk
+achievement.collectChunk.desc=For mob crops you need mob chunks, you can obtain them by killing the specific mob.
+
+achievement.growMobs=Grow Mob Crops
+achievement.growMobs.desc=Make some zombie, creeper or skeleton sprout!
+
+achievement.growGhast=Free Tears?
+achievement.growGhast.desc=Obtain a ghast chunk and make it sprout!
+
+achievement.growWither=Wither Chunk
+achievement.growWither.desc=Obtain a wither chunk and make it sprout!
+
+achievement.growEnderman=Ender?
+achievement.growEnderman.desc=Obtain an enderman chunk and make it sprout!
+
+achievement.growResource=Grow Resources
+achievement.growResource.desc=Make some coal, iron or gold sprouts to get started!
+
+achievement.growDiamond=Need Some Diamonds?
+achievement.growDiamond.desc=Make diamond sprouts!
+
+achievement.growEmerald=King of the Villages!
+achievement.growEmerald.desc=Make emerald sprouts!
+
+achievement.growGlowstone=Too dark?
+achievement.growGlowstone.desc=Make glowstone sprouts!

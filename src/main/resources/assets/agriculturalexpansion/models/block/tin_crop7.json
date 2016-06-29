@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "agriculturalexpansion:blocks/tin_crop7"
+    }
+}
