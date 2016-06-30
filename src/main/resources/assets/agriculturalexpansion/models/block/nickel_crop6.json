@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "agriculturalexpansion:blocks/nickel_crop6"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "agriculturalexpansion:crop0" },
+        "age=1": { "model": "agriculturalexpansion:crop1" },
+        "age=2": { "model": "agriculturalexpansion:crop2" },
+        "age=3": { "model": "agriculturalexpansion:crop3" },
+        "age=4": { "model": "agriculturalexpansion:crop4" },
+        "age=5": { "model": "agriculturalexpansion:crop5" },
+        "age=6": { "model": "agriculturalexpansion:cobalt_crop6" },
+        "age=7": { "model": "agriculturalexpansion:cobalt_crop7" }
+    }
+}
