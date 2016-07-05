@@ -3,6 +3,7 @@ package com.agriculturalexpansion.handler;
 import com.agriculturalexpansion.init.AEItems;
 import com.agriculturalexpansion.main.Reference;
 
+import net.minecraft.item.Item;
 import net.minecraft.world.storage.loot.LootEntryItem;
 import net.minecraft.world.storage.loot.LootPool;
 import net.minecraft.world.storage.loot.LootTableList;
@@ -12,6 +13,22 @@ import net.minecraftforge.event.LootTableLoadEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class DungeonLoot {
+
+    public static Item[] items = {
+            AEItems.resource_seed,
+            AEItems.coal_sprout, AEItems.iron_sprout, AEItems.gold_sprout, AEItems.lapis_sprout, AEItems.quartz_sprout, AEItems.redstone_sprout, AEItems.diamond_sprout, AEItems.emerald_sprout, AEItems.glowstone_sprout,
+            AEItems.zombie_sprout, AEItems.creeper_sprout, AEItems.skeleton_sprout, AEItems.slime_sprout, AEItems.spider_sprout, AEItems.guardian_sprout, AEItems.ghast_sprout, AEItems.wither_sprout, AEItems.blaze_sprout, AEItems.enderman_sprout,
+            AEItems.squid_sprout, AEItems.cow_sprout, AEItems.sheep_sprout, AEItems.chicken_sprout, AEItems.pig_sprout, AEItems.rabbit_sprout,
+            AEItems.earth_sprout, AEItems.water_sprout, AEItems.fire_sprout, AEItems.experience_sprout, AEItems.dye_sprout, AEItems.nature_sprout, AEItems.nether_sprout,
+    };
+
+    public static int[] ints = {
+            ConfigurationFile.resourceSeeds,
+            ConfigurationFile.coalSprouts, ConfigurationFile.ironSprouts, ConfigurationFile.goldSprouts, ConfigurationFile.lapisSprouts, ConfigurationFile.quartzSprouts, ConfigurationFile.redstoneSprouts, ConfigurationFile.diamondSprouts, ConfigurationFile.emeraldSprouts, ConfigurationFile.glowstoneSprouts,
+            ConfigurationFile.zombieSprouts, ConfigurationFile.creeperSprouts, ConfigurationFile.skeletonSprouts, ConfigurationFile.slimeSprouts, ConfigurationFile.spiderSprouts, ConfigurationFile.guardianSprouts, ConfigurationFile.ghastSprouts, ConfigurationFile.witherSprouts, ConfigurationFile.blazeSprouts, ConfigurationFile.endermanSprouts,
+            ConfigurationFile.squidSprouts, ConfigurationFile.cowSprouts, ConfigurationFile.sheepSprouts, ConfigurationFile.chickenSprouts, ConfigurationFile.pigSprouts, ConfigurationFile.rabbitSprouts,
+            ConfigurationFile.earthSprouts, ConfigurationFile.waterSprouts, ConfigurationFile.fireSprouts, ConfigurationFile.experienceSprouts, ConfigurationFile.dyeSprouts, ConfigurationFile.natureSprouts, ConfigurationFile.netherSprouts
+    };
 	
 	@SubscribeEvent
     public void lootTableLoadEvent(LootTableLoadEvent event) {
@@ -19,49 +36,12 @@ public class DungeonLoot {
                 event.getName().equals(LootTableList.CHESTS_IGLOO_CHEST) ||
                 event.getName().equals(LootTableList.CHESTS_DESERT_PYRAMID) ||
                 event.getName().equals(LootTableList.CHESTS_JUNGLE_TEMPLE) ||
-                event.getName().equals(LootTableList.CHESTS_VILLAGE_BLACKSMITH)) {
+                event.getName().equals(LootTableList.CHESTS_VILLAGE_BLACKSMITH) ||
+                event.getName().equals(LootTableList.CHESTS_SIMPLE_DUNGEON)) {
             LootPool main = event.getTable().getPool("main");
-            //Resource Seed
-            main.addEntry(new LootEntryItem(AEItems.resource_seed, ConfigurationFile.resourceSeeds, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":resourceSeeds"));
-            
-            //Vanilla Sprouts
-            main.addEntry(new LootEntryItem(AEItems.coal_sprout, ConfigurationFile.coalSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":coalSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.iron_sprout, ConfigurationFile.ironSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":ironSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.gold_sprout, ConfigurationFile.goldSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":goldSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.lapis_sprout, ConfigurationFile.lapisSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":lapisSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.quartz_sprout, ConfigurationFile.quartzSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":quartzSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.redstone_sprout, ConfigurationFile.redstoneSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":redstoneSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.diamond_sprout, ConfigurationFile.diamondSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":diamondSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.emerald_sprout, ConfigurationFile.emeraldSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":emeraldSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.glowstone_sprout, ConfigurationFile.glowstoneSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":glowstoneSprouts"));
-            
-            //Hostile Mobs Sprouts
-            main.addEntry(new LootEntryItem(AEItems.zombie_sprout, ConfigurationFile.zombieSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":zombieSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.creeper_sprout, ConfigurationFile.creeperSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":creeperSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.skeleton_sprout, ConfigurationFile.skeletonSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":skeletonSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.slime_sprout, ConfigurationFile.slimeSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":slimeSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.spider_sprout, ConfigurationFile.spiderSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":spiderSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.guardian_sprout, ConfigurationFile.guardianSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":guardianSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.ghast_sprout, ConfigurationFile.ghastSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":ghastSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.wither_sprout, ConfigurationFile.witherSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":witherSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.blaze_sprout, ConfigurationFile.blazeSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":blazeSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.enderman_sprout, ConfigurationFile.endermanSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":endermanSprouts"));
-            
-            //Passive Mobs Sprouts
-            main.addEntry(new LootEntryItem(AEItems.squid_sprout, ConfigurationFile.squidSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":squidSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.cow_sprout, ConfigurationFile.cowSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":cowSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.sheep_sprout, ConfigurationFile.sheepSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":sheepSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.chicken_sprout, ConfigurationFile.chickenSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":chickenSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.pig_sprout, ConfigurationFile.pigSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":pigSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.rabbit_sprout, ConfigurationFile.rabbitSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":rabbitSprouts"));
-            
-            //Other Sprouts
-            main.addEntry(new LootEntryItem(AEItems.earth_sprout, ConfigurationFile.earthSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":earthSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.water_sprout, ConfigurationFile.waterSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":waterSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.fire_sprout, ConfigurationFile.fireSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":fireSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.experience_sprout, ConfigurationFile.experienceSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":experienceSprouts"));
-            main.addEntry(new LootEntryItem(AEItems.dye_sprout, ConfigurationFile.dyeSprouts, 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":dyeSprouts"));
-            
+            for(int i = 0; i < items.length; i++) {
+                main.addEntry(new LootEntryItem(items[i], ints[i], 0, new LootFunction[0], new LootCondition[0], Reference.MOD_ID + ":" + items[i].getUnlocalizedName()));
+            }
         }
     }
 

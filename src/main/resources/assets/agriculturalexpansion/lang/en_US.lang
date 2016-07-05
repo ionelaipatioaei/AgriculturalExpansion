@@ -289,34 +289,41 @@ itemGroup.tabAgriculturalExpansion=Agricultural Expansion
 
 //Achievements
 achievement.sproutFarmer=Sprout Farmer
-achievement.sproutFarmer.desc=Make some Resource Seeds and plant them to obtain sprouts for resource crops!
+achievement.sproutFarmer.desc=Make some Resource Seeds and plant them to obtain sprouts for resource crops.
+achievement.collectSprout=Collect Sprout
+achievement.collectSprout.desc=Collect some Resource Sprouts from Resource Crop.
+achievement.collectPowerfulSprout=Collect a Powerful Sprout
+achievement.collectPowerfulSprout.desc=Powerful Sprout have a 10% chance to be collected from any resource crop.
+achievement.collectUltimateSprout=Collect a Ultimate Sprout
+achievement.collectUltimateSprout.desc=Ultimate Sprout have a 5% chance to be collected from any resource crop.
 
-achievement.collectSprout=My First Sprout
-achievement.collectSprout.desc=For a resource seed you need 4 resource sprouts, go ahead and get them!
+achievement.basicSprout=Coal Sprout
+achievement.basicSprout.desc=Make the most simple resource sprout.
+achievement.collectEssence=Collect the Essence
+achievement.collectEssence.desc=Wait for crop to grow and collect the essence.
+achievement.useEssence=Use the Essence
+achievement.useEssence.desc=Now you can make some coal using the essence.
+achievement.oreDictSprout=Copper Sprout
+achievement.oreDictSprout.desc=Also you can make Ore Dictionary Crops.
+achievement.specialSproutCraft=Special Sprouts Formers
+achievement.specialSproutCraft.desc=Make an Earth Spout Former.
+achievement.specialSprout=Special Sprouts
+achievement.specialSprout.desc=Make an Earth Sprout using Earth Sprout Former.
+achievement.mobSprout=Collect a mob chunk
+achievement.mobSprout.desc=Collect a zombie, creeper or skeleton chunk.
+achievement.endermanSprout=Enderpearls
+achievement.endermanSprout.desc=Make an Enderman Sprout.
+achievement.witherSprout=Nether Star?
+achievement.witherSprout.desc=Make a Wither Sprout.
 
-achievement.collectChunk=My First Mob Chunk
-achievement.collectChunk.desc=For mob crops you need mob chunks, you can obtain them by killing the specific mob.
+achievement.newSprout=Next tier of sprouts.
+achievement.newSprout.desc=Make an Iron Sprout using powerful sprouts.
+achievement.gemSprout=Gem Sprouts
+achievement.gemSprout.desc=Make a ruby or sapphire sprout.
 
-achievement.growMobs=Grow Mob Crops
-achievement.growMobs.desc=Make some zombie, creeper or skeleton sprout!
-
-achievement.growGhast=Free Tears?
-achievement.growGhast.desc=Obtain a ghast chunk and make it sprout!
-
-achievement.growWither=Wither Chunk
-achievement.growWither.desc=Obtain a wither chunk and make it sprout!
-
-achievement.growEnderman=Ender?
-achievement.growEnderman.desc=Obtain an enderman chunk and make it sprout!
-
-achievement.growResource=Grow Resources
-achievement.growResource.desc=Make some coal, iron or gold sprouts to get started!
-
-achievement.growDiamond=Need Some Diamonds?
-achievement.growDiamond.desc=Make diamond sprouts!
-
-achievement.growEmerald=King of the Villages!
-achievement.growEmerald.desc=Make emerald sprouts!
-
-achievement.growGlowstone=Too dark?
-achievement.growGlowstone.desc=Make glowstone sprouts!
+achievement.diamondSprout=Diamonds!
+achievement.diamondSprout.desc=Make a Diamond Sprout using ultimate sprouts.
+achievement.cobaltSprout=Tinker's Materials
+achievement.cobaltSprout.desc=Make a Cobalt Sprout.
+achievement.iridiumSprout=Tech Reborn Stuff?
+achievement.iridiumSprout.desc=Make an Iridium Sprout.

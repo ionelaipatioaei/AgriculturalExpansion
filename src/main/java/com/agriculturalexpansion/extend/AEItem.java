@@ -21,9 +21,15 @@ public class AEItem extends Item {
 	@Override
     public void addInformation(ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced) {
 		super.addInformation(stack, playerIn, tooltip, advanced);
-        if (stack.getItem() == AEItems.resource_seed) {
-        	tooltip.add("Produce resource sprouts.");
+        if (stack.getItem() == AEItems.resource_sprout) {
+        	tooltip.add("Obtained from Resource Crop(10% chance to get another one).");
         }
+		if (stack.getItem() == AEItems.powerful_sprout) {
+			tooltip.add("Obtained from all types of crops(10% chance to ge one).");
+		}
+		if(stack.getItem() == AEItems.ultimate_sprout) {
+			tooltip.add("Obtained from all types of crops(5% chance to get one).");
+		}
     }
 
 }

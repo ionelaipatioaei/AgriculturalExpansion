@@ -46,7 +46,7 @@ public class Recipes {
             new ItemStack(Blocks.COAL_ORE, 2), new ItemStack(Blocks.IRON_ORE, 1), new ItemStack(Blocks.GOLD_ORE, 1), new ItemStack(Blocks.LAPIS_ORE, 2), new ItemStack(Blocks.QUARTZ_ORE, 2), new ItemStack(Blocks.REDSTONE_ORE, 2), new ItemStack(Blocks.DIAMOND_ORE, 1), new ItemStack(Blocks.EMERALD_ORE, 1), null,
             null, null, null, null, null, null, null, null, null, null,
             null, null, null, null, null, null,
-            getItem("oreCopper", true, 1), getItem("oreTin", true, 1), getItem("oreSilver", true, 1), getItem("oreLead", true, 1), getItem("oreNickel", true, 1), getItem("orePlatinum", true, 1), getItem("oreAluminum", true, 1), null, getItem("oreTitanium", true, 1), getItem("oreTungsten", true, 1), getItem("oreZinc", true, 1),
+            getItem("oreCopper", true, 1), getItem("oreTin", true, 1), getItem("oreSilver", true, 1), getItem("oreLead", true, 1), getItem("oreNickel", true, 1), getItem("orePlatinum", true, 1), getItem("oreAluminum", true, 1), getItem("oreIridium", true, 1), getItem("oreTitanium", true, 1), getItem("oreTungsten", true, 1), getItem("oreZinc", true, 1),
             getItem("oreArdite", true, 1), getItem("oreCobalt", true, 1), null, null,
             null, null, null, null, null,
             getItem("oreRuby", true, 1), getItem("oreSapphire", true, 1), getItem("oreAmber", true, 1), getItem("oreMalachite", true, 1), getItem("orePeridot", true, 1), getItem("oreTanzanite", true, 1), getItem("oreTopaz", true, 1),
@@ -98,12 +98,16 @@ public class Recipes {
                 GameRegistry.addShapedRecipe(new ItemStack(AEIDs.outputSprout[2][i]), "ZXZ", "XYX", "ZXZ", 'Z', AEItems.powerful_sprout, 'X', AEItems.ultimate_sprout, 'Y', inputSprouts[2][i]);
             }
         }
+        int[] dye = {1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
+        for(int i = 1; i < dye.length; i++) {
+            GameRegistry.addShapelessRecipe(new ItemStack(Items.DYE, 2, dye[i]), new ItemStack(Items.DYE, 1, dye[i]), AEItems.dye_essence);
+        }
         //Custom Recipes
         //Resource Seed
         GameRegistry.addShapelessRecipe(new ItemStack(AEItems.resource_seed), Items.WATER_BUCKET, new ItemStack(Items.DYE, 1, 15), Items.WHEAT_SEEDS, Items.APPLE);
 
         //Sprout Former
-        GameRegistry.addShapelessRecipe(new ItemStack(AEItems.earth_sprout_former), Blocks.GRASS, Blocks.DIRT, Blocks.GRAVEL);
+        GameRegistry.addShapelessRecipe(new ItemStack(AEItems.earth_sprout_former), Blocks.GRASS, Blocks.DIRT, Blocks.GRAVEL, Blocks.CLAY);
         GameRegistry.addShapelessRecipe(new ItemStack(AEItems.water_sprout_former), Items.WATER_BUCKET);
         GameRegistry.addShapelessRecipe(new ItemStack(AEItems.fire_sprout_former), Items.LAVA_BUCKET);
         GameRegistry.addShapelessRecipe(new ItemStack(AEItems.experience_sprout_former), Items.EXPERIENCE_BOTTLE, Items.ROTTEN_FLESH, Items.BONE, Items.SPIDER_EYE, Items.BLAZE_POWDER);
@@ -115,17 +119,31 @@ public class Recipes {
         GameRegistry.addShapedRecipe(new ItemStack(Blocks.DIRT, 8), "XXX", "X X", "XXX", 'X', AEItems.earth_essence);
         GameRegistry.addShapedRecipe(new ItemStack(Blocks.SAND, 8), "XXX", " X ", "XXX", 'X', AEItems.earth_essence);
         GameRegistry.addShapedRecipe(new ItemStack(Blocks.GRAVEL, 8), "X X", "XXX", "X X", 'X', AEItems.earth_essence);
+        GameRegistry.addShapedRecipe(new ItemStack(Blocks.CLAY, 8), "XXX", "XYX", "XXX", 'X', AEItems.earth_essence, 'Y', AEItems.water_essence);
         GameRegistry.addShapedRecipe(new ItemStack(Blocks.GRASS, 8), "XXX", "XYX", "XXX", 'X', AEItems.earth_essence, 'Y', AEItems.nature_essence);
         GameRegistry.addShapedRecipe(new ItemStack(Blocks.NETHERRACK, 8), "XXX", "XYX", "XXX", 'X', AEItems.earth_essence, 'Y', AEItems.nether_essence);
+
         GameRegistry.addShapedRecipe(new ItemStack(Items.WATER_BUCKET, 1), "XXX", "XYX", "XXX", 'X', AEItems.water_essence, 'Y', Items.BUCKET);
         GameRegistry.addShapedRecipe(new ItemStack(Items.LAVA_BUCKET, 1), "XXX", "XYX", "XXX", 'X', AEItems.fire_essence, 'Y', Items.BUCKET);
         GameRegistry.addShapedRecipe(new ItemStack(Blocks.OBSIDIAN, 2), "XXX", "YYY", "YYY", 'X', AEItems.water_essence, 'Y', AEItems.fire_essence);
+        GameRegistry.addShapedRecipe(new ItemStack(Blocks.STONE, 8, 0), "XXX", "YYY", 'X', AEItems.water_essence, 'Y', AEItems.fire_essence);
+        GameRegistry.addShapedRecipe(new ItemStack(Blocks.COBBLESTONE, 8), "XXX", "YYY", 'X', AEItems.fire_essence, 'Y', AEItems.water_essence);
+
         GameRegistry.addShapedRecipe(new ItemStack(Items.EXPERIENCE_BOTTLE, 8), "XXX", "X X", "XXX", 'X', AEItems.experience_essence);
-        for(int i = 1; i < 15; i++) {
-            GameRegistry.addShapelessRecipe(new ItemStack(Items.DYE, 2, i), new ItemStack(Items.DYE, 1, i), AEItems.dye_essence);
-        }
         GameRegistry.addShapedRecipe(new ItemStack(Blocks.LEAVES, 8), "XXX", "X X", "XXX", 'X', AEItems.nature_essence);
         GameRegistry.addShapedRecipe(new ItemStack(Blocks.SOUL_SAND, 8), "XXX", "XYX", "XXX", 'X', AEItems.nether_essence, 'Y', AEItems.earth_essence);
+
+        GameRegistry.addShapedRecipe(new ItemStack(Items.ARROW, 8), "X X", "XXX", "X X", 'X', AEItems.skeleton_essence);
+        GameRegistry.addShapedRecipe(new ItemStack(Items.SPIDER_EYE, 4), "X X", "XXX", "X X", 'X', AEItems.spider_essence);
+        GameRegistry.addShapedRecipe(new ItemStack(Items.PRISMARINE_CRYSTALS, 3), "X X", "XXX", "X X", 'X', AEItems.guardian_essence);
+        GameRegistry.addShapedRecipe(new ItemStack(Items.ARROW, 8), "X X", "XXX", "X X", 'X', AEItems.skeleton_essence);
+        GameRegistry.addShapedRecipe(new ItemStack(Items.GUNPOWDER, 4), "X X", "XXX", "X X", 'X', AEItems.ghast_essence);
+
+        GameRegistry.addShapedRecipe(new ItemStack(Items.BEEF, 4), "X X", "XXX", "X X", 'X', AEItems.cow_essence);
+        GameRegistry.addShapedRecipe(new ItemStack(Items.MUTTON, 4), "X X", "XXX", "X X", 'X', AEItems.sheep_essence);
+        GameRegistry.addShapedRecipe(new ItemStack(Items.CHICKEN, 3), "X X", "XXX", "X X", 'X', AEItems.chicken_essence);
+        GameRegistry.addShapedRecipe(new ItemStack(Items.RABBIT, 3), "X X", "XXX", "X X", 'X', AEItems.rabbit_essence);
+        GameRegistry.addShapedRecipe(new ItemStack(Items.RABBIT_HIDE, 4), "XXX", " X ", "XXX", 'X', AEItems.rabbit_essence);
     }
 
     private static void initSmelting() {

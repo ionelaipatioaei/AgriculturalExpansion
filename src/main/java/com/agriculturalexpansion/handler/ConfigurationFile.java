@@ -52,6 +52,8 @@ public class ConfigurationFile {
 	public static int fireSprouts;
 	public static int experienceSprouts;
 	public static int dyeSprouts;
+	public static int natureSprouts;
+	public static int netherSprouts;
 	
 	@SubscribeEvent
     public void onConfigChanged(ConfigChangedEvent.OnConfigChangedEvent eventArgs) {
@@ -70,7 +72,7 @@ public class ConfigurationFile {
 		
 		category = "Loot chances";
 		config.addCustomCategoryComment(category, "Set to 0 to disable, 1 is very rare(like golden apple) and 100 is very common");
-		resourceSeeds = config.getInt("resourceSeeds", category, 35, 0, 100, "Resource Seeds generation");
+		resourceSeeds = config.getInt("resourceSeeds", category, 20, 0, 100, "Resource Seeds generation");
 		
 		coalSprouts = config.getInt("coalSprouts", category, 10, 0, 100, "Coal Sprouts generation");
 		ironSprouts = config.getInt("ironSprouts", category, 9, 0, 100, "Iron Sprouts generation");
@@ -100,11 +102,13 @@ public class ConfigurationFile {
 		pigSprouts = config.getInt("pigSprouts", category, 9, 0, 100, "Pig Sprouts generation");
 		rabbitSprouts = config.getInt("rabbitSprouts", category, 7, 0, 100, "Rabbit Sprouts generation");
 		
-		rabbitSprouts = config.getInt("earthSprouts", category, 7, 0, 100, "Earth Sprouts generation");
-		rabbitSprouts = config.getInt("waterSprouts", category, 6, 0, 100, "Water Sprouts generation");
-		rabbitSprouts = config.getInt("fireSprouts", category, 8, 0, 100, "Fire Sprouts generation");
-		rabbitSprouts = config.getInt("experienceSprouts", category, 5, 0, 100, "Experience Sprouts generation");
-		rabbitSprouts = config.getInt("dyeSprouts", category, 10, 0, 100, "Dye Sprouts generation");
+		earthSprouts = config.getInt("earthSprouts", category, 7, 0, 100, "Earth Sprouts generation");
+		waterSprouts = config.getInt("waterSprouts", category, 6, 0, 100, "Water Sprouts generation");
+		fireSprouts = config.getInt("fireSprouts", category, 8, 0, 100, "Fire Sprouts generation");
+		experienceSprouts = config.getInt("experienceSprouts", category, 5, 0, 100, "Experience Sprouts generation");
+		dyeSprouts = config.getInt("dyeSprouts", category, 10, 0, 100, "Dye Sprouts generation");
+		natureSprouts = config.getInt("natureSprouts", category, 10, 0, 100, "Nature Sprouts generation");
+		netherSprouts = config.getInt("netherSprouts", category, 10, 0, 100, "Nature Sprouts generation");
 		
 		category = "General";
 		config.addCustomCategoryComment(category, "General Settings");

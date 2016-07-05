@@ -49,7 +49,7 @@ public class AECrop extends BlockCrops {
         int powerful_sprout = 0;
         int ultimate_sprout = 0;
 
-        if (age == 7) {
+        if (age >= getMaxAge()) {
             //33% chance to get an extra seed
             if(rand.nextInt(3) == 0){
                 seeds++;
@@ -69,13 +69,16 @@ public class AECrop extends BlockCrops {
             if(rand.nextInt(20) == 0) {
                 ultimate_sprout++;
             }
+            drops.add(new ItemStack(this.getSeed(), seeds, 0));
+            drops.add(new ItemStack(this.getCrop(), essence, 0));
+            drops.add(new ItemStack(AEItems.powerful_sprout, powerful_sprout, 0));
+            drops.add(new ItemStack(AEItems.ultimate_sprout, ultimate_sprout, 0));
+        } else {
+            int seed = 1;
+            drops.add(new ItemStack(this.getSeed(), seed, 0));
         }
-
-        drops.add(new ItemStack(this.getSeed(), seeds, 0));
-        drops.add(new ItemStack(this.getCrop(), essence, 0));
-        drops.add(new ItemStack(AEItems.powerful_sprout, powerful_sprout, 0));
-        drops.add(new ItemStack(AEItems.ultimate_sprout, ultimate_sprout, 0));
         return drops;
-    }   
+    }
+
     
 }
